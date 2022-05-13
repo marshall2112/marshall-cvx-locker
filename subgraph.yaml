@@ -14,7 +14,7 @@ dataSources:
       apiVersion: 0.0.5
       language: wasm/assemblyscript
       entities:
-        - Staked
+        - CvxLock
       abis:
         - name: CvxLockerV2
           file: ./abis/CvxLockerV2.json
