@@ -1,6 +1,6 @@
-type ExampleEntity @entity {
+type CvxLock @entity {
   id: ID!
-  count: BigInt!
-  _user: Bytes! # address
-  _kicked: Bytes! # address
+  user: Bytes! # address
+  lockAmount: BigInt!
+  epoch: BigInt!
 }
